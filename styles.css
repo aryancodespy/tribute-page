@@ -81,7 +81,7 @@ footer {
     color: blueviolet;
 }
 
-@media (max-width: 300px) {
+@media (orientation: portrait) {
 
     #img-caption {
         font-size: 16px;
