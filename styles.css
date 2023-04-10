@@ -81,7 +81,7 @@ footer {
     color: blueviolet;
 }
 
-@media (min-width: 300px) {
+@media (max-width: 300px) {
 
     #img-caption {
         font-size: 16px;
