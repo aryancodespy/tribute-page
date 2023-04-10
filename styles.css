@@ -80,3 +80,24 @@ footer {
 #tribute-link:visited {
     color: blueviolet;
 }
+
+@media (min-width: 400px) {
+    li {
+        text-align: justify;
+        max-width: 100%;
+        height: auto;
+        margin: auto;
+        line-height: 1.8rem;
+        padding: 5px;
+    }
+    
+    #tribute-info p {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        max-width: 100%;
+        height: auto;
+        margin: 15px auto;
+        font-style: italic;
+    }
+}
