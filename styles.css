@@ -28,6 +28,11 @@
 
 #img-caption {
     padding: 15px 0;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    font-size: 12px;
+    font-weight: 400;
 }
 
 #tribute-info {
@@ -42,7 +47,8 @@ h3 {
 
 li {
     text-align: justify;
-    width: 500px;
+    max-width: 50%;
+    height: auto;
     margin: auto;
     line-height: 1.8rem;
     padding: 5px;
@@ -51,8 +57,26 @@ li {
 #tribute-info p {
     display: flex;
     flex-direction: column;
-    text-align: justify;
-    width: 500px;
-    margin: auto;
+    text-align: left;
+    max-width: 50%;
+    height: auto;
+    margin: 15px auto;
     font-style: italic;
+}
+
+footer {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    font-weight: 800;
+}
+
+#tribute-link {
+    color: blue;
+}
+
+#tribute-link:visited {
+    color: blueviolet;
 }
