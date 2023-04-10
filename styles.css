@@ -82,8 +82,9 @@ footer {
 }
 
 @media (min-width: 300px) {
+
     #img-caption {
-        font-size: 16px;;
+        font-size: 16px;
     }
 
     #tribute-info {
@@ -99,7 +100,7 @@ footer {
         margin: auto;
         line-height: 1.8rem;
         padding: 5px;
-        font-size: ;
+        font-size: 16px;
     }
     
     #tribute-info p {
