@@ -81,9 +81,9 @@ footer {
     color: blueviolet;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 300px) {
     li {
-        text-align: justify;
+        text-align: left;
         max-width: 100%;
         height: auto;
         margin: auto;
